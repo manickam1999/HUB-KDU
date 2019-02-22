@@ -1,0 +1,7 @@
+Invoice Management Made Easy
+
+Invoice Payments Made Convenient
+
+HUB@KDU makes it easy for students and admins alike to do important tasks
+regarding payments and invoices through a dual platform product consisting of a
+website and mobile application that communicate between each other.

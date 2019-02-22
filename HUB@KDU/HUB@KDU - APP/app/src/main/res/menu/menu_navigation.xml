@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:tools="http://schemas.android.com/tools"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <item android:id="@+id/item_invoice"
+        android:icon="@drawable/ic_attach_money_black_24dp"
+        android:title="My Invoices"/>
+
+    <item android:id="@+id/item_faq"
+        android:icon="@drawable/ic_question_answer_black_24dp"
+        android:title="FAQ"/>
+    <item
+        android:id="@+id/item_logout"
+        android:icon="@drawable/ic_exit_to_app_black_24dp"
+        android:title="Logout" />
+
+</menu>

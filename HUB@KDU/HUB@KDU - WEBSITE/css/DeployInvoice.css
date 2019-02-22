@@ -1,0 +1,265 @@
+/* Imported font stlyle */
+@font-face { font-family: Granite; src: url('Granite.ttf'); }
+
+body {
+  overflow-x: hidden;
+  background-color: #0171B0;
+}
+
+#wrapper {
+  padding-left: 0;
+  -webkit-transition: all 0.5s ease;
+  -moz-transition: all 0.5s ease;
+  -o-transition: all 0.5s ease;
+  transition: all 0.5s ease;
+}
+
+.table-striped>tbody>tr:nth-of-type(odd){background-color:#FFFFFF}
+
+.table-striped>tbody>tr:nth-of-type(even){background-color:#F3F3F3}
+
+.table-striped>thead>th {background-color:#1885FF}
+
+
+#wrapper.toggled {
+  padding-left: 250px;
+}
+
+#sidebar-wrapper {
+  z-index: 1000;
+  position: fixed;
+  left: 250px;
+  width: 0;
+  height: 100%;
+  margin-left: -250px;
+  overflow-y: auto;
+  background: #004268;
+  -webkit-transition: all 0.5s ease;
+  -moz-transition: all 0.5s ease;
+  -o-transition: all 0.5s ease;
+  transition: all 0.5s ease;
+}
+
+#wrapper.toggled #sidebar-wrapper {
+  width: 250px;
+}
+
+#mainPage-wrapper {
+  width: 100%;
+  position: absolute;
+  padding: 15px;
+}
+
+#wrapper.toggled #mainPage-wrapper {
+  position: absolute;
+  margin-right: -250px;
+}
+
+#Menu
+{
+  color : black;
+  font-size:50px;
+  cursor:pointer;
+  margin-bottom : -100px;
+  padding-top: 35px;
+  padding-bottom: 35px;
+
+}
+
+
+
+/* Sidebar Styles */
+
+
+.sidebar-nav {
+  position: relative;
+  top: 0;
+  width: 250px;
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+
+.sidebar-nav li {
+  text-indent: 20px;
+  line-height: 50px;
+}
+
+.sidebar-nav li a {
+  display: block;
+  text-decoration: none;
+  color: #fff;
+}
+
+.sidebar-nav li a:hover {
+  text-decoration: none;
+  background: rgba(255, 255, 255, 0.2);
+}
+
+.sidebar-nav li a:active, .sidebar-nav li a:focus {
+  text-decoration: none;
+}
+
+.closebtn
+{
+    font-size: 36px;
+    margin-left: 180px;
+}
+ /* media screen sizes */
+@media(max-width:768px) {
+  #wrapper {
+    padding-left: 0;
+  }
+  #wrapper.toggled {
+    padding-left: 250px;
+  }
+  #sidebar-wrapper {
+    width: 0;
+  }
+  #wrapper.toggled #sidebar-wrapper {
+    width: 250px;
+  }
+  #mainPage-wrapper {
+    padding: 20px;
+    position: relative;
+  }
+
+  #wrapper.toggled #mainPage-wrapper {
+    position: relative;
+    margin-right: 0;
+  }
+
+  #menu-toggle{
+    position: absolute;
+  }
+  
+  .buttonCheck[type="submit"] {
+    background: #035D90 none repeat scroll 0 0;
+    border: 1px solid #4f5c04;
+    border-radius: 25px;
+    color: #fff;
+    font-size: 16px;
+    font-style: normal;
+    line-height: 35px;
+    margin: 10px 0;
+    padding: 0;
+    text-transform: uppercase;
+    width: 300px;
+    margin-left : auto;
+	margin-top: 50px;
+  }
+  
+  .buttonCheck:hover {
+    background: #035D90 none repeat scroll 0 0;
+    color: black;
+    transition: all 0.5s ease 0s;
+	}
+
+}
+
+
+@media(max-width:1920px) {
+ 
+  #wrapper {
+    padding-left: 0;
+  }
+  #wrapper.toggled {
+    padding-left: 250px;
+  }
+  #sidebar-wrapper {
+    width: 0;
+  }
+  #wrapper.toggled #sidebar-wrapper {
+    width: 250px;
+  }
+  #mainPage-wrapper {
+    padding: 20px;
+    position: relative;
+  }
+
+  #wrapper.toggled #mainPage-wrapper {
+    position: relative;
+    margin-right: 0;
+  }
+
+  #menu-toggle{
+    position: absolute;
+  }
+  
+  .buttonCheck[type="submit"] {
+    background: #035D90 none repeat scroll 0 0;
+    border: 1px solid #4f5c04;
+    border-radius: 25px;
+    color: #fff;
+    font-size: 16px;
+    font-style: normal;
+    line-height: 35px;
+    margin: 10px 0;
+    padding: 0;
+    text-transform: uppercase;
+    width: 300px;
+    margin-left : 40%;
+	margin-top: 50px;
+	}
+	
+	.buttonCheck:hover {
+    background: #035D90 none repeat scroll 0 0;
+    color: black;
+    transition: all 0.5s ease 0s;
+	}
+
+
+}
+
+
+.container-fluid h1{
+  text-align: center;
+  font-family: Granite;
+  color: #000000;
+  padding-right: 100px;
+  padding-bottom: 20px;
+  padding-left: 50px;
+
+}
+
+#menu-toggle{
+  margin-left: 665px;
+  color: black;
+  background-color: white;
+}
+
+.container-fluid img {
+  width:25px;
+  height: 250px;
+}
+
+ /* Picture Header CSS */
+#header
+{
+  width : 105%;
+  margin-top: -5px;
+  margin-left: -5px;
+  background : url(../images/WebsiteTop.png) no-repeat;
+  background-size : cover;
+}
+
+input[type=text] {
+    position: relative;
+    width: 25%;
+    left: 35%;
+    top: 20px;
+    padding: 10px;
+    box-sizing: border-box;
+    border: 5px ridge #035D90;
+    -webkit-transition: 0.5s;
+    transition: 0.5s;
+    outline: none;
+}
+
+input[type=text]:focus {
+    border: 5px ridge white;
+}
+
+
+
+
